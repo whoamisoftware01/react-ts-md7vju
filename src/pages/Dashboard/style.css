@@ -1,0 +1,82 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Montserra;
+    src: url('../../fonts/Montserrat-Regular.ttf');
+}
+
+
+body{
+    font-family: Montserra;
+
+}
+
+html,body{
+
+    height: 100%;
+
+}
+
+
+.container_dashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row2{
+    display: flex;
+    
+}
+
+.icon_company > img{
+    width: 60px;
+    border-radius: 5px;
+}
+
+.banner{
+
+    position: absolute;
+    top:0;
+}
+
+.banner > img{
+
+    width: 100%;
+
+}
+
+.icon_company{
+
+    position: relative;
+    top:-20px;
+    z-index: 1;
+    left:15px;
+}
+
+.title,.price,.investors{
+    margin-left: 15px;
+    font-size: 0.7em;
+    position: relative;
+    line-height: 30px;
+    font-weight: 900;
+    color:rgb(58, 58, 58);
+    top: 160px;
+}
+
+.container_company{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow-y: scroll;
+    height: 600px;
+    flex-wrap: wrap;
+    padding: 20px;
+}

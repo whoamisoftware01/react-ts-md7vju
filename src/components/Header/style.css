@@ -1,0 +1,26 @@
+
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.row1 > .userInfo{
+
+    margin-right:40px;
+}
+
+.row1 > .userInfo > h2{
+
+    font-weight: 500;
+    font-size: 1.2em;
+
+}
+
+.row1 > .icon{
+    position: relative;
+    top:6px;
+    margin-left: 30px;
+
+}

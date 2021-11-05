@@ -1,0 +1,22 @@
+
+.container_error > h2{
+
+    margin-top: 30px;
+
+}
+
+.container_error{
+
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_error > img{
+    
+    width: 570px;
+
+}

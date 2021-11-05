@@ -1,0 +1,126 @@
+.row_investment{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+.input_value{
+
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input_value > .img_real > img{
+
+    width: 20px;
+
+}
+
+.input_value > .img_real{
+    position: absolute;
+    height: 30px;
+    top:20px;
+    left:15px;
+
+}
+
+.value_investment > h2{
+
+    font-size: 1.2em;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.investment_h2{
+
+    margin-top: 35px;
+
+}
+
+.value_investment > button{
+
+    
+    background-color: #4533af;
+    height: 39px;
+    border-radius: 5px;
+    border:none;
+    font-size: 1.2em;
+    width: 100%;
+    margin-top: 15px;
+    outline:none;
+    color:white;
+    cursor: pointer;
+
+}
+
+.investment_h2::after{
+
+    content: '';
+    display: block;
+    border-bottom: 1px solid #E5E5E5;
+
+}
+
+.input_value > input[type="text"]{
+
+    text-indent: 50px;
+
+}
+
+.value_investment{
+    padding: 30px;
+    border: 1px solid #E5E5E5;
+    height: 380px;
+}
+
+.document_invest_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.document_invest_info > label > img{
+
+    width: 30px;
+    position: relative;
+    top:10px;
+}
+
+.info_investment_company{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    border: 1px solid #E5E5E5;
+    height: 380px;
+    border-radius: 5px;
+    padding: 60px;
+}
+
+.info_investment_company > p{
+
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 40px;
+
+}
+
+.info_investment_company > h2{
+
+    font-size: 1.0em;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.info_investment_user{
+
+    display: flex;
+    align-items: center;
+
+}

@@ -1,0 +1,208 @@
+
+@font-face {
+    font-family: Montserra;
+    src: url('../../fonts/Montserrat-Regular.ttf');
+}
+html,body{
+
+    height: 100%;
+}
+
+.container_profile{
+
+    width: 100%;
+    display: flex;
+    height: 620px;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+
+.flex1{
+
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex1 > img{
+
+    width: 70px;
+
+}
+
+.container_dashboard{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.card_profile{
+
+    margin:15px  auto;
+    display: flex;
+    justify-content: left;
+    width: 47%;
+    padding:15px;
+    border-radius: 4px;
+    border: 1px solid #e9e9e9;
+}
+
+.card_profile > .pictureProfile > .description > h2{
+
+    font-size: 1.1em;
+
+}
+
+.card_profile > .pictureProfile,.description{
+    width:100%;
+}
+
+.card_profile > .pictureProfile > .description::after{
+
+    content: '';
+    display:block;
+    border: 1px solid #e9e9e9;
+    margin: 15px 0;
+}
+
+.container_input{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.input_row1{
+
+    margin-top: 25px;
+
+}
+
+.input_row1,.input_row2,.input_row3{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.input_line2{
+
+    display: flex;
+    margin-top: 20px;
+}
+
+.input_line3{
+
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.input_line3 > div{
+
+    display:flex;
+    flex-direction: column;
+
+}
+
+.select{
+
+    width: 50%;
+}
+
+.select > select{
+    border: 1px solid #e9e9e9;
+    outline:none;
+    height: 32px;
+    margin-top: 13px;
+    font-size:1.2em;
+}
+
+.input_line3 > div > input[type="text"]{
+    width: 90%;
+}
+
+.input_line2 > div{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input_line2 > div > input[type="text"]{
+
+    width: 90%;
+
+}
+
+input[type="text"]{
+
+    border: 1px solid #e9e9e9;
+    height: 32px;
+}
+
+label{
+
+    position: relative;
+    top:-60px;
+    font-size: 0.9em;
+}
+
+.sidebar{
+    width: 230px;
+    border-right: 1px solid #e9e9e9;
+    padding: 12px;
+    height:100vh;
+}
+
+.clean{
+
+    margin-bottom: 25px;
+
+}
+
+nav > ul > li,a{
+    list-style: none;
+    margin-top: 15px;
+    cursor: pointer;
+    color:black;
+    font-family: Montserra;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-left:10px;
+}
+
+nav > ul  > .checked{
+    padding: 12px;
+    background-color: #4533af;
+    border-radius: 5px;
+    margin-left: 10px;
+    color:white;
+    font-family: Montserra;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.pictureProfile > button{
+
+    background-color: #4533af;
+    width: 50%;
+    margin:20px auto;
+    cursor: pointer;
+    height: 32px;
+    border:none;
+    font-size: 0.8em;
+    outline:none;
+    display: flex;
+    justify-content: center;
+    color:white;
+    border-radius: 5px;
+    transition: all .2s;
+
+}
+
+.pictureProfile > button:hover{
+
+    font-size:1.2em;
+
+}

@@ -1,0 +1,141 @@
+
+@font-face {
+    font-family: Montserra;
+    src: url('../../fonts/Montserrat-Regular.ttf');
+}
+
+.container{
+    font-family: Montserra;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.container_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+    width: 80%;
+    margin:60px auto;
+
+}
+
+.container_form > h1{
+
+    font-size: 0.9em;
+    color:#868686;
+    font-weight: 900;
+}
+
+
+.container_form > h2{
+
+    font-size: 0.9em;
+    color:black;
+    margin-top: -4px;
+    font-weight: 900;
+
+}
+
+.container_form > img{
+
+    position: relative;
+    top: -50px;
+
+}
+
+.forms{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 35%;
+}
+
+.forms > input[type="email"],
+input[type="password"]{
+
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #E5E5E5;
+    font-size:1.4em;
+    margin-top: 15px ;
+}
+
+ label{
+
+    position: relative;
+    top: -50px;
+    color:black;
+    font-weight: 900;
+}
+
+.row1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -5px;
+    border:none;
+}
+
+.row1 > p{
+
+    color:black;
+    font-weight: 900;
+    font-size: 0.8em;
+
+}
+
+.checkbox{
+
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.checkbox > label{
+
+    color:black;
+    font-weight: 900;
+    font-size: 0.8em;
+    position: relative;
+    top:1px;
+    left:10px;
+}
+
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 15px 0;
+}
+
+.primary{
+
+    background-color: #4533af;
+    height: 39px;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    color:white;
+    cursor: pointer;
+}
+
+.secondary{
+
+    background-color:white;
+    height: 39px;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+

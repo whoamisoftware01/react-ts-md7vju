@@ -1,0 +1,286 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Montserra;
+    src: url('../../fonts/Montserrat-Regular.ttf');
+}
+
+
+body{
+    font-family: Montserra;
+
+}
+
+html,body{
+
+    height: 100%;
+
+}
+
+.banner_company{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner_company > img{
+
+    width: 100%;
+    border-radius: 5px;
+    height: 353px;
+
+}
+
+.icon_company_column{
+
+    position: relative;
+    top: -60px;    
+}
+
+.icon_company_column > img{
+
+    width: 60px;
+
+}
+
+iframe{
+
+    width: 80%;
+    height: 720px;
+}
+
+.row_company{
+
+    display: flex;
+    position: relative;
+}
+
+.row_company > button{
+    position: absolute;
+    right: 0;
+    background-color: #4533af;
+    width: 15%;
+    cursor: pointer;
+    height: 33px;
+    border:none;
+    font-size: 1.0em;
+    outline:none;
+    display: flex;
+    justify-content: center;
+    color:white;
+    border-radius: 9px;
+    transition: all .2s;
+}
+
+.company_info{
+
+    margin: 20px 0;
+}
+
+.website{
+
+    color:#4533af;
+
+}
+
+.company_info > p{
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.cvmrow{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.cvmInfo > div{
+
+    margin: 15px 0;
+}
+
+.cvmInfo > .cvmrow > p{
+
+    margin-left: 15px;
+
+}
+
+.cvmInfo{
+
+    border: 2px solid #e9e9e9;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 20px;   
+}
+
+.cvmInfo > div  > img{
+
+    width: 20px;
+
+}
+
+.description_column{
+
+    width: 99%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.column_company{
+
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+}
+
+
+.desc_company_column{
+
+    margin-top: 50px;
+
+}
+
+
+.desc_company_column > h2{
+
+    line-height: 90px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.desc_company_column > p{
+
+    font-weight: bold;
+}
+
+.column_terms > div{
+
+    margin: 15px 0;
+}
+
+.cvmInfo{
+
+    overflow-y: auto;
+
+}
+
+.column_terms > div > h2{
+
+    margin-top: 15px;
+}
+
+.column_terms > div > p{
+
+    font-weight: bold;
+
+}
+
+.column_terms > div > h2::after{
+
+    content: '';
+    display: block;
+    border-bottom: 1px solid #e9e9e9;
+    width: 90%;
+    margin-top: 20px;
+
+}
+
+.terms_ofert{
+    width: 70%;
+
+    margin-top: 30px;
+}
+
+.line{
+    border-top: 1px solid #e9e9e9;
+    height: 32px;
+    width: 99%;
+    margin-top: 60px;
+}
+
+.container_dashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_dashboard > img{
+
+    width: 100%;
+    height: 120px;
+
+}
+
+.logo_company{
+
+    position: relative;
+    top: -120px;
+}
+
+.logo_company > img{
+
+    width: 90px;
+
+}
+
+.row2{
+    display: flex;
+    
+}
+
+.icon_company > img{
+    width: 60px;
+    border-radius: 5px;
+}
+
+.banner{
+
+    position: absolute;
+    top:0;
+}
+
+.banner > img{
+
+    width: 100%;
+
+}
+
+.icon_company{
+
+    position: relative;
+    top:-20px;
+    z-index: 1;
+    left:15px;
+}
+
+.title,.price,.investors{
+    margin-left: 15px;
+    font-size: 0.7em;
+    position: relative;
+    line-height: 30px;
+    font-weight: 900;
+    color:rgb(58, 58, 58);
+    top: 160px;
+}
+
+.container_company{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow-y: scroll;
+    height: 600px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
